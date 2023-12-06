@@ -35,9 +35,14 @@ body{
 .sponsor-heading{
     font-size: 150%;
     margin-bottom: 1em;
+    
 }
 .sponsor-p{
     margin-bottom: 3.125em;
+}
+.sponsor-text{
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .sponsor-container{
    margin-bottom: 3.125em;
@@ -66,6 +71,8 @@ body{
 }
 .racing-faq{
     margin-bottom: 3.125em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .tips-text{
     display: flex;
@@ -76,6 +83,8 @@ body{
 }
 .tips-tricks{
     margin-bottom: 3.125em;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .contact-container{
     
