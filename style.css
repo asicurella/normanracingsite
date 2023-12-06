@@ -34,10 +34,7 @@ body{
     align-self: center;
 }
 .slow-mo-container{
-    
-    margin-bottom: 4em;
-    position: relative;
-   
+    display: none;
 }
 .slow-mo-container video{
     opacity: 50%;
@@ -45,15 +42,35 @@ body{
 .hero-overlay{
    color: black;
    text-align: center;
+   min-width: 20em;
    
+}
+.slow-mo-container-mobile{
+    margin-bottom: -6px;
+}
+.slow-mo-container-mobile video{
+    opacity: 50%;
 }
 .hero-text{
     font-size: 1.4em;
 }
 .sponsor-container{
     margin-bottom: 10em;
-    
+    padding-top: 8em;
 
+}
+.banner{
+    background-color: rgba(47, 245, 252, 0.37);
+    padding: 2em;
+    
+}
+.banner h1{
+    font-size: 2em;
+}
+.banner-text{
+    padding: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .sponsor-heading{
     font-size: 2em;
@@ -146,11 +163,14 @@ body{
         padding-right: 2em;
     }
     .slow-mo-container {
-        height: 75vh;
+        height: 80vh;
         overflow: clip;
-        margin-bottom: 3.125em;
         position: relative;
+        display: block;
    
+    }
+    .slow-mo-container-mobile{
+        display: none;
     }
     .nav-link:hover{
         border-bottom: solid #52F9FF;
