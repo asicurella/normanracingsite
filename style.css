@@ -19,8 +19,17 @@ body{
     align-self: center;
 }
 .slow-mo-container{
-    opacity: 50%;
+    
     margin-bottom: 3.125em;
+    position: relative;
+   
+}
+.slow-mo-container video{
+    opacity: 50%;
+}
+.hero-overlay{
+   color: black;
+   text-align: center;
    
 }
 .sponsor-heading{
