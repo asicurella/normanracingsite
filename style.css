@@ -1,5 +1,4 @@
 body{
-    
 }
 .navigation{
     background-color: #f1f1f1;
@@ -9,6 +8,15 @@ body{
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar-brand{
+    margin: 0;
+    align-self: center;
 }
 .slow-mo-container{
     opacity: 50%;
