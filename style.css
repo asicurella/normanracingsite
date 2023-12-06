@@ -23,6 +23,7 @@ body{
     font-size: 1.2em;
     
 }
+
 .social-media a{
     text-decoration: none;
     color: black;
@@ -34,12 +35,13 @@ body{
 }
 .slow-mo-container{
     
-    margin-bottom: 3.125em;
+    margin-bottom: 4em;
     position: relative;
    
 }
 .slow-mo-container video{
     opacity: 50%;
+    height: 75vh;
 }
 .hero-overlay{
    color: black;
@@ -48,6 +50,11 @@ body{
 }
 .hero-text{
     font-size: 1.4em;
+}
+.sponsor-container{
+    margin-bottom: 10em;
+    
+
 }
 .sponsor-heading{
     font-size: 2em;
@@ -61,9 +68,7 @@ body{
     padding-left: 15%;
     padding-right: 15%;
 }
-.sponsor-container{
-   margin-bottom: 3.125em;
-}
+
 .sponsor-card{
     
 }
@@ -82,12 +87,12 @@ body{
 }
 .girls-card{
     margin-top: 3.125em;
-    margin-bottom: 3.125em;
+    margin-bottom: 10em;
     display: flex;
     justify-content: center;
 }
 .racing-faq{
-    margin-bottom: 3.125em;
+    margin-bottom: 10em;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -99,14 +104,14 @@ body{
 
 }
 .tips-tricks{
-    margin-bottom: 3.125em;
+    margin-bottom: 10em;
     padding-left: 15%;
     padding-right: 15%;
 }
 .contact-container{
     
     padding: 0.5em;
-    margin-bottom: 3.125em;
+    margin-bottom: 6em;
 }
 .form{
     display: flex;
@@ -155,7 +160,7 @@ body{
         color: #3bb7bb;
     
     }
-    
+   
     .navbar-nav{
         gap: 1.4em;
     }
@@ -176,7 +181,7 @@ body{
     }
     
     .racing-faq{
-        margin-bottom: 3.125em;
+        margin-bottom: 10em;
         padding-left: 30%;
         padding-right: 30%;
     }
@@ -201,5 +206,8 @@ body{
     .card-img{
         width: 20%;
     }
-    
+    .contact-container{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
 }
