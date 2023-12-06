@@ -47,6 +47,8 @@ body{
 }
 .slow-mo-container-mobile{
     margin-bottom: -6px;
+    height: 80vh;
+    overflow: clip;
 }
 .slow-mo-container-mobile video{
     opacity: 50%;
