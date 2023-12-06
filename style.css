@@ -41,7 +41,7 @@ body{
 }
 .slow-mo-container video{
     opacity: 50%;
-    height: 75vh;
+    
 }
 .hero-overlay{
    color: black;
