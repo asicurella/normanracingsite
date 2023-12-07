@@ -1,4 +1,6 @@
-body{
+/* Index */
+
+#home body{
 }
 
 .navigation{
@@ -33,105 +35,105 @@ body{
     margin: 0;
     align-self: center;
 }
-.slow-mo-container{
+#home .slow-mo-container{
     display: none;
 }
-.slow-mo-container video{
+#home .slow-mo-container video{
     opacity: 50%;
 }
-.hero-overlay{
+#home .hero-overlay{
    color: black;
    text-align: center;
    min-width: 20em;
    
 }
-.slow-mo-container-mobile{
+#home .slow-mo-container-mobile{
     margin-bottom: -6px;
     height: 80vh;
     overflow: clip;
 }
-.slow-mo-container-mobile video{
+#home .slow-mo-container-mobile video{
     opacity: 50%;
 }
-.hero-text{
+#home .hero-text{
     font-size: 1.4em;
 }
-.sponsor-container{
+#home .sponsor-container{
     margin-bottom: 10em;
     padding-top: 8em;
 
 }
-.banner{
+#home .banner{
     background-color: rgba(47, 245, 252, 0.37);
     padding: 2em;
     
 }
-.banner h1{
+#home .banner h1{
     font-size: 2em;
 }
-.banner-text{
+#home .banner-text{
     padding: 1em;
     margin-left: 10%;
     margin-right: 10%;
 }
-.sponsor-heading{
+#home .sponsor-heading{
     font-size: 2em;
     margin-bottom: 1em;
     
 }
-.sponsor-p{
+#home .sponsor-p{
     margin-bottom: 3.125em;
 }
-.sponsor-text{
+#home .sponsor-text{
     padding-left: 15%;
     padding-right: 15%;
 }
 
-.sponsor-card{
+#home .sponsor-card{
     
 }
-.card-body{
+#home .card-home{
     
 }
-.card-body img{
+#home .card-home img{
    margin-bottom: 1.5em;
 }
-.sponsor-cards{
+#home .sponsor-cards{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1em;
 }
-.girls-card{
+#home .girls-card{
     margin-top: 3.125em;
     margin-bottom: 10em;
     display: flex;
     justify-content: center;
 }
-.racing-faq{
+#home .racing-faq{
     margin-bottom: 10em;
     padding-left: 10%;
     padding-right: 10%;
 }
-.tips-text{
+#home .tips-text{
     display: flex;
     flex-direction: column;
     gap: 1em;
     
 
 }
-.tips-tricks{
+#home .tips-tricks{
     margin-bottom: 10em;
     padding-left: 15%;
     padding-right: 15%;
 }
-.contact-container{
+#home .contact-container{
     
     padding: 0.5em;
     margin-bottom: 6em;
 }
-.form{
+#home .form{
     display: flex;
     flex-direction: column;
     gap: 0.3em;
@@ -139,11 +141,11 @@ body{
     border: solid grey 0.5px;
     border-radius: 10px;
 }
-.form button{
+#home .form button{
     width: min-content;
     margin-top: 0.3em;
 }
-.girls-card{
+#home .girls-card{
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -164,14 +166,14 @@ body{
     .navigation img{
         padding-right: 2em;
     }
-    .slow-mo-container {
+    #home .slow-mo-container {
         height: 80vh;
         overflow: clip;
         position: relative;
         display: block;
    
     }
-    .slow-mo-container-mobile{
+    #home .slow-mo-container-mobile{
         display: none;
     }
     .nav-link:hover{
@@ -192,43 +194,86 @@ body{
         
         
     }
-    .hero-overlay{
+    #home .hero-overlay{
         font-size: 1.5em;
     }
 
-    .sponsor-text{
+    #home .sponsor-text{
         padding-left: 30%;
         padding-right: 30%;
     }
     
-    .racing-faq{
+    #home .racing-faq{
         margin-bottom: 10em;
         padding-left: 30%;
         padding-right: 30%;
     }
     
-    .tips-tricks .card{
+    #home .tips-tricks .card{
         width: 18rem;
         margin-left: auto;
         margin-right: auto;
     }
-    .sponsor-cards{
+    #home .sponsor-cards{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         
     }
-    .girls-card{
+    #home .girls-card{
         margin-left: 30%;
         margin-right: 30%;
     }
     
-    .card-img{
+    #home .card-img{
         width: 20%;
     }
-    .contact-container{
+    #home .contact-container{
         margin-left: 30%;
         margin-right: 30%;
     }
+}
+/* Sponsorship Page*/
+
+#sponsor .card img{
+    height: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#sponsor .card{
+   width: 100%;
+    
+}
+
+@media screen and (min-width: 1000px) {
+    #sponsor .banner{
+        padding-bottom: 5em;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #sponsor .card img{
+        height: 10em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    #sponsor .card{
+       width: 100%;
+       height: 100%;
+       margin-bottom: 2em;
+    }
+    #sponsor .package-cards{
+        margin-left: 30%;
+        margin-right: 30%;
+        
+    }
+   #sponsor .card-price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+   }
+   #sponsor .card-price button{
+    width: min-content;
+   }
 }
