@@ -167,7 +167,7 @@
         padding-right: 2em;
     }
     #home .slow-mo-container {
-        height: 80vh;
+        
         overflow: clip;
         position: relative;
         display: block;
