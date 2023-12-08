@@ -252,6 +252,7 @@
 #sponsor .banner{
     padding-bottom: 2em;
 }
+
 @media screen and (min-width: 1000px) {
     #sponsor .banner{
         padding-bottom: 5em;
@@ -283,3 +284,38 @@
     width: min-content;
    }
 }
+
+/*Our Sponsors Page*/
+
+#our-sponsors .banner{
+    padding-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#our-sponsors .sponsor-display{
+    display: grid;
+    gap: 2em;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 15em;
+    justify-items: center;
+}
+
+@media screen and (min-width: 1000px) {
+    #our-sponsors .banner{
+        padding-bottom: 5em;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+    #our-sponsors .sponsor-display{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: none;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-items: center;
+        gap: 2em;
+    }
+}
+
