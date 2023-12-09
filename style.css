@@ -279,3 +279,10 @@
 		gap: 2em;
 	}
 }
+
+/*Pro Tips Page*/
+
+#pro-tips .banner{
+    padding-left: 2em;
+    padding-right: 2em;
+}
