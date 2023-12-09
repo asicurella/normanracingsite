@@ -61,18 +61,6 @@
 	margin-bottom: 10em;
 	padding-top: 8em;
 }
-#home .banner {
-	background-color: rgba(47, 245, 252, 0.37);
-	padding: 2em;
-}
-#home .banner h1 {
-	font-size: 2em;
-}
-#home .banner-text {
-	padding: 1em;
-	margin-left: 10%;
-	margin-right: 10%;
-}
 #home .sponsor-heading {
 	font-size: 2em;
 	margin-bottom: 1em;
