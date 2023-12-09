@@ -68,8 +68,9 @@
 #home .sponsor-p {
 	margin-bottom: 3.125em;
 }
-.sponsor-text {
-	
+#home .s-container-text {
+	padding-left: 15em;
+    padding-right: 15em;
     
 }
 
@@ -164,7 +165,9 @@
 	#home .hero-overlay {
 		font-size: 1.5em;
 	}
-	
+	#home .s-container-text {
+		
+	}
 	#home .racing-faq {
 		margin-bottom: 10em;
 		padding-left: 30%;
