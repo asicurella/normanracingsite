@@ -127,7 +127,7 @@
 	margin-left: 15%;
 	margin-right: 15%;
 }
-@media screen and (min-width: 1025px) and (max-width: 1200px){
+@media screen and (min-width: 729px) {
 	.navigation {
 		background-color: #f1f1f1;
 		border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
@@ -199,7 +199,7 @@
 		margin-right: 30%;
 	}
 }
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px){
     .navigation {
 		background-color: #f1f1f1;
         border-width: 2px;
@@ -208,7 +208,6 @@
 		border-left: transparent;
 		border-right: transparent;
 		border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
-		
 		display: flex;
 		justify-content: space-between;
 	}
