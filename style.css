@@ -69,9 +69,8 @@
 	margin-bottom: 3.125em;
 }
 #home .s-container-text {
-	padding-left: 15em;
-    padding-right: 15em;
-    
+	padding-left: 2em;
+    padding-right: 2em;
 }
 
 #home .card-home img {
@@ -166,7 +165,8 @@
 		font-size: 1.5em;
 	}
 	#home .s-container-text {
-		
+		padding-left: 30em;
+        padding-right: 30em;
 	}
 	#home .racing-faq {
 		margin-bottom: 10em;
