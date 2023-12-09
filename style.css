@@ -208,6 +208,15 @@
 }
 #sponsor .banner {
 	padding-bottom: 2em;
+
+}
+#sponsor .banner-text{
+    padding-right: 3em;
+    padding-left: 3em;
+}
+#sponsor .banner h2{
+   padding-left: 0.5em;
+   padding-right: 0.5em;
 }
 @media screen and (min-width: 1000px) {
 	#sponsor .banner {
