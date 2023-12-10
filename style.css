@@ -304,7 +304,10 @@
 }
     
 /* Sponsorship Page*/
-
+#sponsor .package-cards{
+    margin-left: 1em;
+    margin-right: 1em;
+}
 #sponsor .card img {
 	height: 10em;
 	padding-top: 2em;
@@ -409,6 +412,10 @@
 #pro-tips .banner{
     padding-left: 2em;
     padding-right: 2em;
+}
+#pro-tips .pro-tips-cards{
+    margin-left: 1em;
+    margin-right: 1em;
 }
 /*PC*/
 @media screen and (min-width: 1025px){
