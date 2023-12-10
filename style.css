@@ -127,7 +127,7 @@
 	margin-left: 15%;
 	margin-right: 15%;
 }
-@media screen and (min-width: 729px) {
+@media screen and (min-width: 1025px){
 	.navigation {
 		background-color: #f1f1f1;
 		border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
@@ -199,22 +199,30 @@
 		margin-right: 30%;
 	}
 }
-@media screen and (min-width: 481px){
+/*landscape tablet*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    
     .navigation {
 		background-color: #f1f1f1;
-        border-width: 2px;
-		border-style: solid;
-		border-top: transparent;
-		border-left: transparent;
-		border-right: transparent;
-		border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
-		display: flex;
-		justify-content: space-between;
+        border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
+        border-image-outset: 10 10 0 10;
+        border-left: transparent;
+        border-right: transparent;
+        border-top: transparent;
+
 	}
-	.navigation img {
-		padding-right: 2em;
+    .navigation img {
+		padding-right: 1em;
 	}
-	#home .slow-mo-container {
+    .navigation .social-media{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       justify-items: center;
+       gap: 0.2em;
+       align-items: center;
+       align-content: center;
+    }
+    #home .slow-mo-container {
 		overflow: clip;
 		position: relative;
 		display: block;
@@ -222,54 +230,28 @@
 	#home .slow-mo-container-mobile {
 		display: none;
 	}
-	.nav-link:hover {
-		border-bottom: solid #52F9FF;
-		border-width: 1px;
-		padding-bottom: 2px;
-		color: #3bb7bb;
-	}
-	.navbar-nav {
-		gap: 1.4em;
-	}
-	.active {
-		border-bottom: solid #52F9FF;
-		border-width: 1px;
-		padding-bottom: 5px;
-	}
-	#home .hero-overlay {
-		font-size: 1.5em;
-	}
-	#home .s-container-text {
-		padding-left: 30em;
-        padding-right: 30em;
-	}
-	#home .racing-faq {
-		margin-bottom: 10em;
-		padding-left: 30%;
-		padding-right: 30%;
-	}
-	#home .tips-tricks .card {
-		width: 18rem;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	#home .sponsor-cards {
+    #home .sponsor-cards {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
 	}
-	#home .girls-card {
-		margin-left: 30%;
-		margin-right: 30%;
+    #home .contact-container {
+		margin-left: 10%;
+		margin-right: 10%;
 	}
-	#home .card-img {
-		width: 20%;
-	}
-	#home .contact-container {
-		margin-left: 30%;
-		margin-right: 30%;
-	}
+    #home .sponsor-container{
+        padding-top: 6em;
+        padding-bottom: 3em;
+    }
+	.s-container-text{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    #home .slow-mo-container video {
+        opacity: 0.5;
+    }
+   
 }
 
     
