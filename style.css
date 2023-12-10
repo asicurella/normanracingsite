@@ -127,6 +127,7 @@
 	margin-left: 15%;
 	margin-right: 15%;
 }
+/*PC*/
 @media screen and (min-width: 1025px){
 	.navigation {
 		background-color: #f1f1f1;
@@ -200,7 +201,7 @@
 	}
 }
 /*landscape tablet*/
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 961px) and (max-width: 1024px){
     
     .navigation {
 		background-color: #f1f1f1;
@@ -213,6 +214,11 @@
 	}
     .navigation img {
 		padding-right: 1em;
+	}
+    .active {
+		border-bottom: solid #52F9FF;
+		border-width: 1px;
+		padding-bottom: 5px;
 	}
     .navigation .social-media{
        display: grid;
@@ -254,6 +260,48 @@
    
 }
 
+/*Portrait Ipad*/
+@media screen and (min-width: 641px) and (max-width: 960px){
+    .navigation {
+		background-color: #f1f1f1;
+        border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
+        border-image-outset: 10 10 0 10;
+        border-left: transparent;
+        border-right: transparent;
+        border-top: transparent;
+
+	}
+    .navigation img {
+		padding-right: 1em;
+	}
+    .navigation .social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: min-content;
+    }
+    #home .slow-mo-container {
+		overflow: clip;
+		position: relative;
+		display: block;
+        
+	}
+	#home .slow-mo-container-mobile {
+		display: none;
+	}
+    #home .slow-mo-container video {
+        opacity: 0.5;
+    }
+    #home .sponsor-cards{
+        display: grid;
+        grid-gap: 2em;
+        
+    }
+    #home .contact-container {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+}
     
 /* Sponsorship Page*/
 
@@ -277,7 +325,8 @@
    padding-left: 0.5em;
    padding-right: 0.5em;
 }
-@media screen and (min-width: 1000px) {
+/*Pc*/
+@media screen and (min-width: 1025px) {
 	#sponsor .banner {
 		padding-bottom: 5em;
 		margin-left: 20%;
@@ -306,6 +355,22 @@
 	#sponsor .card-price button {
 		width: min-content;
 	}
+}
+/*Portrait Ipad*/
+@media screen and (min-width: 641px) and (max-width: 960px){
+    #sponsor .package-cards{
+        margin-left: 10em;
+        margin-right: 10em;
+        padding-bottom: 5em;
+    }
+}
+/*landscape tablet*/
+@media screen and (min-width: 961px) and (max-width: 1024px){
+    #sponsor .package-cards{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5em;
+    }
 }
 /*Our Sponsors Page*/
 
@@ -345,7 +410,8 @@
     padding-left: 2em;
     padding-right: 2em;
 }
-@media screen and (min-width: 1000px){
+/*PC*/
+@media screen and (min-width: 1025px){
     #pro-tips .banner{
         padding-left: 30em;
         padding-right: 30em;
@@ -354,5 +420,18 @@
     #pro-tips .pro-tips-cards{
         padding-left: 15em;
         padding-right: 15em;
+    }
+}
+/*landscape tablet*/
+@media screen and (min-width: 961px) and (max-width: 1024px){
+    #pro-tips .banner{
+        margin-left: 10em;
+        margin-right: 10em;
+        padding-bottom: 3em;
+    }
+    #pro-tips .pro-tips-cards{
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-bottom: 5em;
     }
 }
