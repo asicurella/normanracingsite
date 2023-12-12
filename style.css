@@ -308,33 +308,112 @@
     margin-left: 1em;
     margin-right: 1em;
 }
-#sponsor .card img {
+#sponsor .package-cards .card img {
 	height: 10em;
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
-#sponsor .card {
+#sponsor .package-cards .card {
 	width: 100%;
 }
-#sponsor .banner {
-	padding-bottom: 2em;
-
+#sponsor .banner{
+    padding: 2em;
+    background-color: #f1f1f1;
+   
 }
 #sponsor .banner-text{
-    padding-right: 3em;
-    padding-left: 3em;
+    margin-top: 1em;
+   
+}
+#sponsor .banner-text{
+    
 }
 #sponsor .banner h2{
    padding-left: 0.5em;
    padding-right: 0.5em;
 }
+
+#sponsor .included-cards{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin-left: 1em;
+    margin-right: 1em;
+    grid-gap: 1.5em;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sponsor .offer-banner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 1em;
+   
+}
+
+
+#sponsor .offer-banner img{
+    width: 100%;
+    
+    padding-right: 1em;
+}
+
+#sponsor .offer-banner .offer-text{
+    
+    text-align: center;
+    width: 100%;
+}
+
+#sponsor .offer-p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#sponsor .included-sponsor{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
 /*Pc*/
 @media screen and (min-width: 1025px) {
-	#sponsor .banner {
-		padding-bottom: 5em;
-		margin-left: 20%;
-		margin-right: 20%;
-	}
+    #sponsor .banner{
+        padding: 5em;
+        background-color: #f1f1f1;
+       
+    }
+    #sponsor .banner-text{
+        margin-top: 1em;
+        margin-left: 30em;
+        margin-right: 30em;
+    }
+	#sponsor .included-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        margin-left: 30em;
+        margin-right: 30em;
+        grid-gap: 2em;
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+    #sponsor .offer-banner{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        border-bottom: none;
+        justify-items: center;
+        align-items: center;
+    }
+    #sponsor .package-heading{
+        background-color: #f1f1f1;
+        margin-top: 3em;
+        padding: 3em;
+        margin-bottom: 3em;
+        
+    }
+   
 	#sponsor .card img {
 		height: 10em;
 		padding-top: 2em;
@@ -346,8 +425,10 @@
 		margin-bottom: 2em;
 	}
 	#sponsor .package-cards {
-		margin-left: 30%;
-		margin-right: 30%;
+		margin-left: 20%;
+		margin-right: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 	}
 	#sponsor .card-price {
 		display: flex;
