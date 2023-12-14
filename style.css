@@ -1,6 +1,9 @@
 
 
 /* Index */
+body{
+    
+}
 
 #home body {}
 .navigation {
@@ -42,6 +45,7 @@
 }
 #home .slow-mo-container video {
 	opacity: 50%;
+    transform: translatey(1em);
 }
 #home .hero-overlay {
 	color: black;
@@ -50,30 +54,59 @@
 	z-index: 1;
 }
 #home .slow-mo-container-mobile {
-	margin-bottom: -6px;
-	height: 80vh;
+	height: 95svh;
 	overflow: clip;
+    border-image: radial-gradient(circle, #52F9FF, #FF3131, #FF3131, #FF3131, #FF3131, #52F9FF) 1;
+	border-width: 2px;
+	border-style: solid;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+    
 }
 #home .slow-mo-container-mobile video {
 	opacity: 50%;
+    
+    
 }
 #home .hero-text {
 	font-size: 1.4em;
 }
+#home .about-team{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#home .about-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.3em;
+    gap: 0.3em;
+}
+
 #home .sponsor-container {
 	margin-bottom: 10em;
-	padding-top: 8em;
+	
+    
 }
+#home .s-container-text {
+    margin-bottom: 1em;
+}
+
 #home .sponsor-heading {
-	font-size: 2em;
-	margin-bottom: 1em;
+
+	
+    padding-top: 3em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.5em;
+    
+    
+    
 }
 #home .sponsor-p {
 	margin-bottom: 3.125em;
-}
-#home .s-container-text {
-	padding-left: 2em;
-    padding-right: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #home .card-home img {
@@ -85,12 +118,15 @@
 	align-items: center;
 	justify-content: center;
 	gap: 1em;
+    
 }
 #home .girls-card {
 	margin-top: 3.125em;
 	margin-bottom: 10em;
 	display: flex;
 	justify-content: center;
+    
+
 }
 #home .racing-faq {
 	margin-bottom: 10em;
@@ -130,7 +166,6 @@
 /*PC*/
 @media screen and (min-width: 1025px){
 	.navigation {
-		background-color: #f1f1f1;
 		border-image: radial-gradient(circle, #FF3131, #52F9FF) 1;
 		border-width: 2px;
 		border-style: solid;
@@ -147,11 +182,23 @@
 		overflow: clip;
 		position: relative;
 		display: block;
+        border-image: radial-gradient(circle, #52F9FF, #FF3131, #52F9FF) 1;
+		border-width: 2px;
+		border-style: solid;
+		border-top: transparent;
+		border-left: transparent;
+		border-right: transparent;
+       
+		
 	}
+    #home .slow-mo-container video{
+        background-color: black;
+    }
 	#home .slow-mo-container-mobile {
 		display: none;
 	}
 	.nav-link:hover {
+        
 		border-bottom: solid #52F9FF;
 		border-width: 1px;
 		padding-bottom: 2px;
@@ -168,6 +215,10 @@
 	#home .hero-overlay {
 		font-size: 1.5em;
 	}
+    #home .about-team{
+        margin-left: 30em;
+        margin-right: 30em;
+    }
 	#home .s-container-text {
 		padding-left: 30em;
         padding-right: 30em;
@@ -304,6 +355,7 @@
 }
     
 /* Sponsorship Page*/
+
 #sponsor .package-cards{
     margin-left: 1em;
     margin-right: 1em;
@@ -317,17 +369,16 @@
 	width: 100%;
 }
 #sponsor .banner{
+    margin-top: 2em;
     padding: 2em;
-    background-color: #f1f1f1;
+    
    
 }
 #sponsor .banner-text{
     margin-top: 1em;
    
 }
-#sponsor .banner-text{
-    
-}
+
 #sponsor .banner h2{
    padding-left: 0.5em;
    padding-right: 0.5em;
@@ -362,7 +413,6 @@
 }
 
 #sponsor .offer-banner .offer-text{
-    
     text-align: center;
     width: 100%;
 }
@@ -374,13 +424,14 @@
 #sponsor .included-sponsor{
     margin-top: 3em;
     margin-bottom: 5em;
+    
 }
 
 /*Pc*/
 @media screen and (min-width: 1025px) {
     #sponsor .banner{
         padding: 5em;
-        background-color: #f1f1f1;
+        
        
     }
     #sponsor .banner-text{
@@ -388,16 +439,24 @@
         margin-left: 30em;
         margin-right: 30em;
     }
+    #sponsor .included-sponsor{
+        padding: 5em;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 25em;
+        margin-right: 25em;
+
+    }
 	#sponsor .included-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr;
-        margin-left: 30em;
-        margin-right: 30em;
+        
         grid-gap: 2em;
         gap: 2em;
         justify-content: center;
         align-items: center;
+        
     }
     #sponsor .offer-banner{
         display: grid;
@@ -405,12 +464,13 @@
         border-bottom: none;
         justify-items: center;
         align-items: center;
+        color: black;
     }
     #sponsor .package-heading{
-        background-color: #f1f1f1;
-        margin-top: 3em;
-        padding: 3em;
-        margin-bottom: 3em;
+       
+        margin-top: 10em;
+        padding-bottom: 5em;
+        
         
     }
    
@@ -423,12 +483,19 @@
 		width: 100%;
 		height: 100%;
 		margin-bottom: 2em;
+        background-color:rgb(250, 249, 247);
+        color: black;
+        border-radius: 0;
+       
 	}
 	#sponsor .package-cards {
 		margin-left: 20%;
 		margin-right: 20%;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        padding-bottom: 5em;
+       
 	}
 	#sponsor .card-price {
 		display: flex;

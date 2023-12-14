@@ -8,10 +8,10 @@
     
     <title>Norman Racing - Kart Team</title>
 </head>
-<body id="home">
+<body id="home" data-bs-theme="dark">
 	<!-- Nav -->
   <header>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light navigation order-last">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navigation order-last ">
 		<div class="container-fluid">
 			<a class="navbar-brand norman-logo" href="index.html"><img height="30em" src="photos/normanlogonew.PNG"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse order-last" id="navbarSupportedContent">
@@ -30,9 +30,9 @@
 					</li>
 				</ul>
 				<div class="social-media">
-					<a class="fa-brands fa-instagram" href="https://instagram.com/normanracingteam?igshid=MzRIODBiNWFIZA"></a> 
-          <a class="fa-brands fa-youtube" href="https://www.youtube.com/@NormanRacing"></a> 
-          <a class="fa-brands fa-tiktok" href="https://www.tiktok.com/@NormanRacing"></a>
+					<a class="fa-brands fa-instagram" href="https://instagram.com/normanracingteam?igshid=MzRIODBiNWFIZA" style="color: white;"></a> 
+          			<a class="fa-brands fa-youtube" href="https://www.youtube.com/@NormanRacing" style="color: white;"></a> 
+          			<a class="fa-brands fa-tiktok" href="https://www.tiktok.com/@NormanRacing" style="color: white;"></a>
 				</div>
 			</div>
 		</div>
@@ -43,43 +43,59 @@
 	<div class="slow-mo-container">
 		<video autoplay class="w-100" loop muted><source src="videos/export_1693890167667.MOV" type="video/mp4"></video>
 		<div class="hero-overlay position-absolute top-50 start-50 translate-middle">
-			<h1 class="hero-text">PROUDLY CANADIAN. PASSIONATELY COMPETITIVE.</h1>
-			<p><i>Driven right since 1983</i></p><a class="btn btn-light" href="sponsorship.html">Sponsorship Opportunities</a>
+			<h1 class="hero-text text-light">PROUDLY CANADIAN. PASSIONATELY COMPETITIVE.</h1>
+			<p class="text-light"><i>Driven right since 1983</i></p><a class="btn btn-dark" href="sponsorship.html">Sponsorship Opportunities</a>
 		</div>
 	</div>
 	<div class="slow-mo-container-mobile">
 		<video class="w-100" autoplay loop playsinline muted><source src="videos/mobilekartslow.mp4" type="video/mp4"></video>
 		<div class="hero-overlay position-absolute top-50 start-50 translate-middle">
-			<h1 class="hero-text">PROUDLY CANADIAN. NATURALLY COMPETITIVE.</h1>
-			<p><i>Driven right since 1983</i></p><a class="btn btn-light" href="sponsorship.html">Sponsorship Opportunities</a>
+			<h1 class="hero-text text-light">PROUDLY CANADIAN. NATURALLY COMPETITIVE.</h1>
+			<p class="text-light"><i>Driven right since 1983</i></p>
+			<a class="btn btn-dark border-light" href="sponsorship.html">Sponsorship Opportunities</a>
 		</div>
 	</div>
-  <!--Banner?-->
+  <!--About-->
+	<section class="about-team pt-5 text-center my-5">
+		<h2 class="pb-4">Southern Ontario's #22 Kart Since '83</h2>
+		<p>Founder Bob Norman began his karting career in the early 80's under the same kart
+			number we race to this day. After many trophies, championships and years as his club's 
+			president, Bob handed the seat over to his grand-daughter, Aliya. He trained her to drive,
+			to tune, and most importantly, to stand strong regardless of her minority in racing. 
+			The team has grown since then, but two things will always stay the same -- our number & our 
+			passion for equality.
+		</p>
+		
+		
+	</section>
 	<!-- Sponsor Section -->
 	<div class="sponsor-container">
 		<div class="s-container-text">
-			<h1 class="sponsor-heading text-center">Our 2023 Season Sponsors</h1>
+			<h2 class="sponsor-heading text-center pb-4">Our 2023 Season Sponsors</h2>
 			<p class="sponsor-p text-center">
 				Our sponsors make racing possible. Thanks to them, we're able to always perform to our fullest potential. They're not only great supporters, but also outstanding members of the community. They offer exceptional products/services. Check them out!
       </p>
 	</div>
 		<div class="sponsor-cards">
-			<div class="card wild-wing-card text-center" style="width: 18rem;">
+			<div class="card wild-wing-card text-center border-light bg-dark border border-3" style="width: 18rem;" data-bs-theme="dark">
 				<div class="card-body">
 					<img alt="Wild Wing Logo" src="photos/wild-wing-logo%20(1).png">
-					<p class="card-text">They've got fresh wings and the best seats in the house! Put your favorite team on the big screen and walk out feeling like a winner, no matter the score.</p><button class="btn btn-dark">Barrie Location</button>
+					<p class="card-text pt-3">They've got fresh wings and the best seats in the house! Put your favorite team on the big screen and walk out feeling like a winner, no matter the score.</p>
+					<button class="btn btn-light">Barrie Location</button>
 				</div>
 			</div>
-			<div class="card nails-ky-card text-center" style="width: 18rem;">
+			<div class="card nails-ky-card text-center border-light bg-dark border border-3" style="width: 18rem;" data-bs-theme="dark">
 				<div class="card-body">
-					<img alt="Nails Done By Ky Logo" src="photos/Untitled%20design.svg">
-					<p class="card-text">Quality nails are hard to come by without the worry of breaking the bank. When you're in search of a new set, check out some of Kylie's selection!</p><button class="btn btn-dark">Order Now</button>
+					<img class="bg-light" alt="Nails Done By Ky Logo" src="photos/Untitled%20design.svg">
+					<p class="card-text pt-3">Quality nails are hard to come by without the worry of breaking the bank. When you're in search of a new set, check out some of Kylie's selection!</p>
+					<button class="btn btn-light">Order Now</button>
 				</div>
 			</div>
-			<div class="card diamond-painting-card text-center" style="width: 18rem;">
+			<div class="card diamond-painting-card text-center border-light bg-dark border border-3" style="width: 18rem;" data-bs-theme="dark">
 				<div class="card-body">
 					<img alt="Sculptor Web Design Logo" src="photos/sculptor-web-design.png">
-					<p class="card-text">Want a website without taking the time to lay it all out yourself? Don't want to spend a fortune hiring a designer, either? Sculptor's 30-second site might be right for you!</p><button class="btn btn-dark">Get A Site</button>
+					<p class="card-text pt-3">Want a website without taking the time to lay it all out yourself? Don't want to spend a fortune hiring a designer, either? Sculptor's 30-second site might be right for you!</p>
+					<button class="btn btn-light">Get A Site</button>
 				</div>
 			</div>
 		</div>
@@ -92,7 +108,8 @@
 				<div class="col-md-7">
 					<div class="card-body">
 						<h5 class="card-title">Girls Race, Too</h5>
-						<p class="card-text">Girls are born with the same drive for competition as boys, yet, 1-in-3 girls drop out of sports by their late teens. This statistic is even more staggering in a sport as male-dominated as motorsport. Aliya's passionate about reminding girls to remain in sports, regardless of the obstacles in their way.</p><a class="btn btn-dark" href="https://womenandsport.ca/canadian-girls-dropping-out-of-sport/">Read About It Here</a>
+						<p class="card-text">Girls are born with the same drive for competition as boys, yet, 1-in-3 girls drop out of sports by their late teens. This statistic is even more staggering in a sport as male-dominated as motorsport. Aliya's passionate about reminding girls to remain in sports, regardless of the obstacles in their way.</p>
+						<a class="btn btn-dark border-light border-light" href="https://womenandsport.ca/canadian-girls-dropping-out-of-sport/">Read About It Here</a>
 					</div>
 				</div>
 			</div>
@@ -133,7 +150,7 @@
 				<div class="card-text tips-text">
 					<h5>Tips & Tricks</h5>
 					<p>Our team is built on a family that has never been rich, but has always made it work. We've been able to make it to grid season after season with passion, some great sponsors and a few money-saving tricks. Check out our "Pro-Tips" section to hear about some of them!</p>
-				</div><button class="btn btn-dark">Pro-Tips</button>
+				</div><button class="btn btn-light">Pro-Tips</button>
 			</div>
 		</div>
 	</div><!-- Contact Section -->
@@ -160,7 +177,7 @@
 					</option>
 				</select>
 			</div><label class="mb-1" for="content">Your Message</label> 
-			<textarea placeholder="Write your message..." style="width: 100%;"></textarea> <button class="btn btn-dark" type="submit">Send</button>
+			<textarea placeholder="Write your message..." style="width: 100%;"></textarea> <button class="btn btn-light" type="submit">Send</button>
 		</div>
 	</div>
 </main>
